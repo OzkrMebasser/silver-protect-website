@@ -53,10 +53,10 @@ function ParticlesHero() {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "#69dafc",
           },
           links: {
-            color: "#ffffff",
+            color: "#69dafc",
             distance: 150,
             enable: true,
             opacity: 0.5,
