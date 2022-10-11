@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { BsChatDots, BsMessenger, BsWhatsapp, BsChatQuote } from "react-icons/bs";
+import { BsMessenger, BsWhatsapp } from "react-icons/bs";
 import { MdOutlineMailOutline } from "react-icons/md";
 import {AiOutlineComment} from "react-icons/ai";
 
