@@ -1,0 +1,122 @@
+.floatingBtn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  position: absolute;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc");
+}
+
+.actionButton {
+  right: 3.5rem;
+  bottom: 3.5rem;
+  display: flex;
+  color: #0c234c;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 50px;
+  /* background: #50b2f3; */
+  /* border: solid 1px white; */
+  font-size: 2rem;
+  /* box-shadow: 6px 8px 8px 6px #ccc; */
+  z-index: 99999999999999999999;
+  position: fixed;
+}
+
+.actionButton:after {
+  content: "";
+  right: 3.5rem;
+  bottom: 3.5rem;
+  border-color: inherit;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  opacity: 0;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 1.2s;
+  animation-name: _pulse;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  z-index: 99999999999999999999;
+}
+
+/* keyframes */
+@keyframes _pulse {
+  0% {
+    box-shadow: 0 0 0 0 #a6dffa;
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px #0c234c;
+    opacity: 0;
+  }
+}
+
+.whatsApp {
+  height: 60px;
+  width: 60px;
+  background-color: #25d366;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  position: fixed;
+  z-index: 99999999999999999999;
+  right: 4rem;
+  bottom: 8.5rem;
+  border-radius: 50%;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+}
+
+
+.messenger {
+  height: 60px;
+  width: 60px;
+  background-color: #006AFF;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  position: fixed;
+  z-index: 99999999999999999999;
+  right: 8rem;
+  bottom: 5.7rem;
+  border-radius: 50%;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+.email {
+  height: 60px;
+  width: 60px;
+  background-color: #ff002b;
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  position: fixed;
+  z-index: 99999999999999999999;
+  right: 7.5rem;
+  bottom: 1rem;
+  border-radius: 50%;
+  align-items: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
