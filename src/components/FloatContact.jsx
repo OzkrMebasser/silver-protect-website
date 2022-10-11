@@ -32,7 +32,7 @@ const FloatContact = () => {
       ) : null}
           {openMenu ? (
         <div className='messenger'>
-         <a href="https://www.facebook.com/messages/t/876531472464645"  target="_blank" rel="nofollow noopener noreferrer" ><BsMessenger/></a> 
+         <a href="https://www.facebook.com/876531472464645"  target="_blank" rel="nofollow noopener noreferrer" ><BsMessenger/></a> 
           </div>
       ) : null}
        {openMenu ? (
