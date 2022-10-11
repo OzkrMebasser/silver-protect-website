@@ -99,7 +99,7 @@ const Hero = () => {
     
 
 <ParticlesHero/>
-<FloatContact/>
+{/* <FloatContact/> */}
     </HeroSlider>
     
     </div>
