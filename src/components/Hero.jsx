@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import Wrapper from '../components/Hero/Title';
 import Title from '../components/Hero/Wrapper';
-import FloatContact from './FloatContact';
+// import FloatContact from './FloatContact';
 
 import HeroSlider, { Overlay, Slide } from "hero-slider";
 import { images } from '../assets/images';
