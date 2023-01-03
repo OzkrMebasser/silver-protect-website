@@ -3,7 +3,7 @@
   height: 60px;
   border-radius: 50%;
   align-items: center;
-  position: a;
+  position: absolute;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc");
 
   right: 3.5rem;
@@ -15,7 +15,7 @@
   height: 60px;
   border-radius: 50%;
   align-items: center;
-  position: a;
+  position: absolute;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc");
 
   right: 3.5rem;
