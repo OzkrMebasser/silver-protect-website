@@ -15,7 +15,7 @@ function App() {
   return (
     <Fragment>
     <div>
-    <FloatContact/>
+    
       <Navbar />
       <Hero />
       <About />
