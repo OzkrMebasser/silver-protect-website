@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="relative w-full px-20 bg-[white] py-16 underlineComp">
-      <div className=" grid md:grid-cols-2 mx-auto   ">
-      <div className="flex flex-col justify-center ">
+    <div className="relative w-full md:px-20 px-10 bg-[white] py-16 underlineComp">
+      <div className=" grid md:grid-cols-2 mx-auto bg-[white] ">
+        <div className="flex flex-col justify-center items-center  bg-[white] ">
           {/* <p className="text-[#0c2e51] font-bold ">¡Que </p> */}
           <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             ¿COMO FUNCIONA?
@@ -28,16 +28,20 @@ const About = () => {
               antiséptico para el tratamiento de heridas y quemaduras.
             </p>
           </span>
-          
+
           {/* <button className="bg-[#0c234c] text-[white] w-[150px] rounded-md font-medium my-6  md:mx-0 py-3">
             Leer mas...
           </button> */}
-        </div>
-        <img
+          
+          </div>
+          <span className="py-12 md:ml-56">
+          <img
             className="w-[380px] hover:scale-105 duration-300 rounded-lg shadow-xl "
             src="https://firebasestorage.googleapis.com/v0/b/ecommerce-proyecto-b850b.appspot.com/o/iones22.PNG?alt=media&token=77e14373-077f-4e9a-a8a9-c7f4a6b70d15"
             alt="/"
           />
+          </span>
+          
       </div>
     </div>
   );
