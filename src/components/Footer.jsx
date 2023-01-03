@@ -69,7 +69,7 @@ const Footer = () => {
     </div>
   </div>
 </footer>
-{/* <FloatContact/> */}
+<FloatContact/>
 </Fragment>
   );
 };
