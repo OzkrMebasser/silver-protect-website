@@ -5,6 +5,7 @@ import FloatContact from './components/FloatContact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Funciona from './components/Funciona';
 
 
 
@@ -18,7 +19,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      
+      <Funciona/>
       <Cards />
       
     

@@ -45,7 +45,7 @@ const Hero = () => {
         {/* <h1 className='md:text-6xl sm:text-6xl text-4xl font-bold md:py-6 '>
           Kairos Riviera Maya
         </h1> */}
-        <div className='flex justify-center items-center'>
+        {/* <div className='flex justify-center items-center'>
           
           <Typed
           className='mt-6 md:text-4xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 z-50'
@@ -53,7 +53,7 @@ const Hero = () => {
             typeSpeed={120}
             backSpeed={140}
             loop
-          />
+          /> */}
             {/* <Typed
           className='b mt-6 md:text-4xl sm:text-4xl text-xl font-bold md:pl-4 pl-2 z-50'
             strings={['No irrita', 'No quema', 'No deja olores', 'No deja residuos']}
@@ -61,7 +61,7 @@ const Hero = () => {
             backSpeed={140}
             loop
           /> */}
-        </div>
+        {/* </div> */}
         {/* <button className='z-50 mt-20 bg-[white] text-[#0c2e51] w-[150px] rounded-md font-medium my-6 mx-auto py-3 text-white'>Contact us</button> */}
         {
         images.map((image, index) => (

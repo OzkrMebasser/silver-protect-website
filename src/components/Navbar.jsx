@@ -36,8 +36,8 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
        
         <li className='link link-underline link-underline-white p-4 font-bold'>Inicio</li>
-        <li className='link link-underline link-underline-white p-4 font-bold'>Acerca de</li>
-        <li className='link link-underline link-underline-white p-4 font-bold'>Distribuidores</li>
+        <li className='link link-underline link-underline-white p-4 font-bold'>Quienes somos</li>
+        <li className='link link-underline link-underline-white p-4 font-bold'><a href='https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT' target="_blank" rel="noopener noreferrer">Mercado Libre</a></li>
         <li className='link link-underline link-underline-white p-4 font-bold'>Contactanos</li>
 
 
@@ -49,8 +49,8 @@ const Navbar = () => {
       
           <li><img className=" text-center mx-auto py-12 h-22 w-32" src='https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c' alt="silver protect" /></li>
           <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'>Incio</li>
-          <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'>Acerca de</li>
-          <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'>Distribuidores</li>
+          <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'>Quienes somos</li>
+          <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'><a href='https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT' target="_blank" rel="noopener noreferrer">Mercado Libre</a></li>
           <li className='link link-underline link-underline-white text-center p-4 border-b border-gray-600'>Contactanos</li>
       </ul>
     </div>
