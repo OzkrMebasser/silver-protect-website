@@ -2,7 +2,7 @@ import React from 'react';
 import Typed from 'react-typed';
 import Wrapper from '../components/Hero/Title';
 import Title from '../components/Hero/Wrapper';
-// import FloatContact from './FloatContact';
+import Contact from './Contact';
 
 import HeroSlider, { Overlay, Slide } from "hero-slider";
 import { images } from '../assets/images';
@@ -99,7 +99,7 @@ const Hero = () => {
     
 
 <ParticlesHero/>
-{/* <FloatContact/> */}
+<Contact/>
     </HeroSlider>
     
     </div>
