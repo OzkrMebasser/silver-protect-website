@@ -1,7 +1,11 @@
-import React from "react";
+import React, {Fragment} from 'react';
+import FloatContact from './FloatContact';
+
 
 const About = () => {
   return (
+    <Fragment>
+
     <div className="relative w-full md:px-20 px-10 bg-[white] py-16 underlineComp">
       <div className=" grid md:grid-cols-2 mx-auto bg-[white]  ">
         <img
@@ -50,6 +54,8 @@ const About = () => {
         </div>
       </div>
     </div>
+    <FloatContact/>
+    </Fragment>
   );
 };
 
