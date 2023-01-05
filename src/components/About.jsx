@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import FloatContact from './FloatContact';
+// import FloatContact from './FloatContact';
 
 
 const About = () => {
@@ -54,7 +54,7 @@ const About = () => {
         </div>
       </div>
     </div>
-    <FloatContact/>
+    {/* <FloatContact/> */}
     </Fragment>
   );
 };

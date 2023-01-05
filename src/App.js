@@ -26,7 +26,7 @@ function App() {
       <Footer />
       
     </div>
-    
+    <FloatContact/>
     
     </Fragment>
     
