@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import Wrapper from '../components/Hero/Title';
 import Title from '../components/Hero/Wrapper';
 import Contact from './Contact';
