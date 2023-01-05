@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import FloatContact from './FloatContact';
+import Contact from './Contact';
 import { FaFacebookSquare} from 'react-icons/fa';
 import {GrInstagram, GrYoutube, GrTwitter } from "react-icons/gr"
 
@@ -69,7 +69,7 @@ const Footer = () => {
     </div>
   </div>
 </footer>
-<FloatContact/>
+<Contact/>
 </Fragment>
   );
 };

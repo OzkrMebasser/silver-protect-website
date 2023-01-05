@@ -139,15 +139,7 @@
 
 /* new*/
 
-/* * {
-  margin: 0;
-  padding: 0;
-}
-body {
-  height: 100vh;
-  background-color: #04f9f2;
-  position: relative;
-}
+
 .wrapper {
   position: fixed;
   bottom: 20px;
@@ -196,4 +188,4 @@ body {
   text-decoration: none;
   color: #fff;
   margin: 2px;
-} */
+}
