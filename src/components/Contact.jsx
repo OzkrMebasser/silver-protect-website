@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
 import '../FloatContact.css'
-=======
-
->>>>>>> a2b6ff039daa875b4294a4e7e5864913f4a14ee7
 
 
 const Contact = () => {
@@ -19,11 +15,8 @@ const Contact = () => {
     }
     }
     
-<<<<<<< HEAD
     
 
-=======
->>>>>>> a2b6ff039daa875b4294a4e7e5864913f4a14ee7
 
   return (
     <>
@@ -33,10 +26,6 @@ const Contact = () => {
         <a className="close-button" onClick={Toggle} href="#"> <i className="fa fa-close"></i></a>
     </div>
 </>
-<<<<<<< HEAD
-=======
-
->>>>>>> a2b6ff039daa875b4294a4e7e5864913f4a14ee7
   )
 }
 
