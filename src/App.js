@@ -22,7 +22,7 @@ function App() {
       <Funciona/>
       <Cards />
       
-    
+      
       <Footer />
       
     </div>

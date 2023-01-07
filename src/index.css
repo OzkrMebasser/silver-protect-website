@@ -4,15 +4,17 @@
 
 body {
   margin: 0;
-  font-family: 'Kanit', sans-serif;
-  
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'HortaRegular';
+
  
 }
-
+/*https://fontlibrary.org/es/font/horta*/
 code {
-  font-family: 'Kanit', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+  font-family: 'HortaRegular';
+   font-weight: normal;
+   font-style: normal;
+   
 
 }
 
@@ -40,12 +42,36 @@ code {
   background-position: 0 100%
 }
 
+/*responsive menu*/
+.link-underline-responsive {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#7DB6D5, #7DB6D5);
+  background-size: 0 100%;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .5s ease-in-out;
+  
+}
+
+.link-underline-black-responsive {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#7DB6D5, #7DB6D5);
+}
+
+.link-underline-responsive:hover {
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  color: #0C2348;
+}
+
+
+
+
 .underlineComp {
-  border-bottom: 2px solid #0c234c;
+  border-bottom: 2px solid #0C2348;
 }
 .heroBGC{
-  background: rgb(188,231,251);
-  background: radial-gradient(circle, rgba(188,231,251,1) 0%, #0c234c 60%);
+  background: #7DB6D5;
+  background: radial-gradient(circle, #7DB6D5 0%, #0C2348 60%);
 }
 
 .iconosFooter{

@@ -7,8 +7,9 @@
     /* font-size: rem; */
     margin-top: 2rem;
   
-    color: #0c234c;
-    text-shadow: 0 0 5px #FFF, 0 0 10px rgba(255, 255, 255, 0.829), 0 0 15px rgba(255, 255, 255, 0.637), 0 0 20px #183f88, 0 0 30px #1c2680, 0 0 40px #6e809b, 0 0 55px #0906a1, 0 0 75px #237de4cc;  }
+    color: #0C2348;
+    /* text-shadow: 0 0 5px #FFF, 0 0 10px rgba(255, 255, 255, 0.829), 0 0 15px rgba(255, 255, 255, 0.637), 0 0 20px #183f88, 0 0 30px #1c2680, 0 0 40px #6e809b, 0 0 55px #0906a1, 0 0 75px #237de4cc;   */
+}
   
 .b{
     color: #0c234c;
