@@ -31,7 +31,7 @@ const Navbar = () => {
   
 
   return (
-    <div className={navbarBg ? "flex justify-between items-center h-24 w-full px-16 text-white bg-[#0C2348] shadow-xl fixed top-0 z-50" : "flex justify-between items-center h-24 w-full px-16 text-white bg-[transparent] fixed top-0 z-50"}>
+    <div className={navbarBg ? "flex justify-between items-center h-24 w-full px-16 text-white bg-[#2B5E8E] shadow-xl fixed top-0 z-50" : "flex justify-between items-center h-24 w-full px-16 text-white bg-[transparent] fixed top-0 z-50"}>
     {/* <div className='flex justify-between items-center h-24 w-screen  mx-auto px-20 text-white bg-[#0E115D] fixed top-0'> */}
       {/* <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1> */}
       <span><img className="h-8 w-34" src='https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c' alt="silver protect" /></span>

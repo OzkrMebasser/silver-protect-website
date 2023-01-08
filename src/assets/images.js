@@ -2,7 +2,7 @@ import '../index.css';
 export const images = [
     {
         id:1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silverProtection(2).png?alt=media&token=2c0b1f68-46e4-4c89-b5f1-1721abf06c4f',
+        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=9e0e840c-1405-4b02-9222-bdaca8e61b39',
        
     },
     {
