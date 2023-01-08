@@ -6,19 +6,19 @@ import Wrapper from "../components/Hero/Title";
 // import Subtitle from "./components/Subtitle";
 
 const bogliasco = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
-const countyClare = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/ionesdeplata.png?alt=media&token=15284dd2-7f7f-43fd-8291-7d20dc7787d7";
+const countyClare = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero3.png?alt=media&token=1c296752-e75f-465b-80d1-436db4ccf4ee";
 const craterRock = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero2.png?alt=media&token=25194cba-bbc9-430c-a14f-9c2a0ee9a8c1";
 const giauPass = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/ionesdeplata2.png?alt=media&token=540b6861-15d5-4330-89bb-12a5d49c609e";
 
 export default function BasicSlider() {
   return (
-    <div className="text-white heroBGC m-auto">
+    <div className=" heroBGC object-none object-center 	">
     <HeroSlider
       height={"100vh"}
       autoplay
       controller={{
         initialSlide: 1,
-        slidingDuration: 500,
+        slidingDuration: 300,
         slidingDelay: 100,
         onSliding: (nextSlide) =>
           console.debug("onSliding(nextSlide): ", nextSlide),
@@ -38,6 +38,7 @@ export default function BasicSlider() {
           {/* <Subtitle>
             Check out the documentation for more advanced examples.
           </Subtitle> */}
+   
         </Wrapper>
       </Overlay>
 
@@ -46,8 +47,9 @@ export default function BasicSlider() {
         // label="Giau Pass - Italy"
         background={{
           backgroundImage: giauPass
+          
         }}
-       
+     
       />
 
       <Slide
@@ -56,6 +58,8 @@ export default function BasicSlider() {
         background={{
           backgroundImage: bogliasco
         }}
+        style={{marginBottom:"100px"
+    }}
       />
 
       <Slide
@@ -63,7 +67,12 @@ export default function BasicSlider() {
         // label="County Clare - Ireland"
         background={{
           backgroundImage: countyClare
+
         }}
+        style={{marginTop:"-300px"
+    }}
+
+       
       />
 
       <Slide
@@ -72,11 +81,17 @@ export default function BasicSlider() {
         background={{
           backgroundImage: craterRock
         }}
+        style={{marginBottom:"100px"
+    }}
       />
 
       {/* <MenuNav /> */}
       <ParticlesHero />
+    
+        <div className="listaPlateada z-300"></div>
+   
     </HeroSlider>
+    
     </div>
   );
 }
