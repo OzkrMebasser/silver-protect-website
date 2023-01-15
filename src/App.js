@@ -3,7 +3,7 @@ import About from './components/About';
 import Cards from './components/Cards';
 import FloatContact from './components/FloatContact';
 import Footer from './components/Footer';
-import Slider from './components/Slider';
+import HeroSlides from './components/HeroSlides';
 import Navbar from './components/Navbar';
 import Funciona from './components/Funciona';
 
@@ -17,7 +17,7 @@ function App() {
     <div>
     
       <Navbar />
-      <Slider />
+      <HeroSlides />
       <About />
       <Funciona/>
       <Cards />

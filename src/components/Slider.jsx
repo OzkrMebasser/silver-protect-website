@@ -6,16 +6,19 @@ import ParticlesHero from "./Particles";
 // import Subtitle from "./components/Subtitle";
 
 const silverPlateImg1 = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
-const silverPlateImg2 = "";
-const silverPlateImg3 = "";
-const silverPlateImg4 = "";
-const silverPlateImg5 = "";
+const silverPlateImg2 = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
+const silverPlateImg3 = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
+const silverPlateImg4 = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
+const silverPlateImg5 = "https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=acd8128c-e6ed-42ca-9266-4787c20b8896";
+
 export default function BasicSlider() {
   return (
-    <div className=" heroBGC max-w-full h-auto ">
+    <div className=" heroBGC   ">
       <HeroSlider
-        height={"100vh"}
-        className="heroBGC max-w-full h-auto center"
+        height="100vh"
+        width="100wh"
+
+       
         autoplay
         controller={{
           initialSlide: 1,
@@ -34,13 +37,18 @@ export default function BasicSlider() {
         }}
       >
  
-
+        
         <Slide
+        className="mt-[100px]"
           // shouldRenderMask
           // label="Giau Pass - Italy"
+          
           background={{
             backgroundImage: silverPlateImg1,
           }}
+          style={{
+           
+          }}          
         />
 
         <Slide
@@ -73,7 +81,7 @@ export default function BasicSlider() {
             backgroundImage: silverPlateImg5,
           }}
         />
-
+        
         {/* <MenuNav /> */}
         <ParticlesHero />
 
