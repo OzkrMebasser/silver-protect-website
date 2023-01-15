@@ -30,7 +30,7 @@ const HeroSlides = () => {
         url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/pruebaHero.png?alt=media&token=5409c0ae-5966-4a77-9a5c-746590d388d7',
       },
       {
-        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/cuadro.png?alt=media&token=e7e42e2d-25db-42ee-990a-5fe4c9b6b5a3'
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/webimg.png?alt=media&token=b5f3c936-895e-42bf-a404-87dbda93dcaa'
       }
 
     ];
