@@ -25,6 +25,9 @@ const HeroSlides = () => {
       },
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero5.png?alt=media&token=48709d5c-bc6f-4db3-9f78-7029c59f9d72',
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/pruebaHero.png?alt=media&token=5409c0ae-5966-4a77-9a5c-746590d388d7',
       }
     ];
   
@@ -47,10 +50,10 @@ const HeroSlides = () => {
     };
   
     return (    
-      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-16 px-4 sm:bg-contain relative group  heroBGC	'>
+      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-16 px-4  relative group  heroBGC	'>
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})`, }}
-          className='w-full h-full bg-center bg-cover bg-no-repeat   duration-500 '
+          className='w-full h-full bg-center bg-cover bg-no-repeat sm:bg-contain   duration-500 '
         ></div>
         {/* Left Arrow */}
         <div className=' absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
