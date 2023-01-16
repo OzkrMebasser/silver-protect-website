@@ -5,13 +5,22 @@
   align-items: center;
   position: relative;
   /* background-color: #25d366; */
-  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc"); */
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/luna-button.png?alt=media&token=ade59939-4341-41e8-a041-f06df915a9b5");
 
   right: 3.5rem;
   bottom: 3.5rem;
   z-index: 99999999999999999999;
+  box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px rgb(224, 224, 224),   /* inner left magenta short */
+    inset -20px 0 80px rgb(0, 0, 0),  /* inner right cyan short */
+    inset 20px 0 300px rgb(218, 212, 218),  /* inner left magenta broad */
+    inset -20px 0 300px rgb(72, 73, 73), /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px rgb(2, 2, 2),        /* outer left magenta */
+    10px 0 80px rgb(4, 14, 61);         /* outer right cyan */
 }
-.floatingBtn::after {
+/* .floatingBtn::after {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -22,20 +31,19 @@
   right: 3.5rem;
   bottom: 3.5rem;
   z-index: 99999999999999999999;
-}
+} */
 
 .actionButton {
   right: 3.5rem;
   bottom: 3.5rem;
   display: flex;
-  background-color: #ff002b;
   color: #0c234c;
   justify-content: center;
   align-items: center;
   margin: auto;
   border-radius: 50px;
   /* background: #50b2f3; */
-  /* border: solid 1px white; */
+  
   font-size: 2rem;
   /* box-shadow: 6px 8px 8px 6px #ccc; */
   z-index: 99999999999999999999;

@@ -20,7 +20,7 @@ const FloatContact = () => {
   return (
 
  <div >
-      <button className="actionButton floatingBtn  z[200] " onClick={toggleMenu}>
+      <button className="actionButton floatingBtn z[200] " onClick={toggleMenu}>
         
          {!openMenu ? <AiOutlineComment />: <GoX/>}
         </button>
