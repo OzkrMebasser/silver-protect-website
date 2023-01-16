@@ -3,8 +3,9 @@
   height: 60px;
   border-radius: 50%;
   align-items: center;
-  position: fixed;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc");
+  position: relative;
+  /* background-color: #25d366; */
+  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc"); */
 
   right: 3.5rem;
   bottom: 3.5rem;
@@ -16,7 +17,7 @@
   border-radius: 50%;
   align-items: center;
   position: fixed;
-  /* background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc"); */
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc");
 
   right: 3.5rem;
   bottom: 3.5rem;
@@ -27,6 +28,7 @@
   right: 3.5rem;
   bottom: 3.5rem;
   display: flex;
+  background-color: #ff002b;
   color: #0c234c;
   justify-content: center;
   align-items: center;
