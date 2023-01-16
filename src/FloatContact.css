@@ -42,11 +42,11 @@
   position: fixed;
 }
 
-.actionButton:after {
+/* .actionButton:after { */
   /* content: "";
   background-image: url("https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/lunatrasnp.png?alt=media&token=6cbbc429-aa7f-4908-8b92-1054753855fc"); */
 
-  right: 3.5rem;
+  /* right: 3.5rem;
   bottom: 3.5rem;
   border-color: inherit;
   width: 60px;
@@ -60,10 +60,10 @@
   animation-iteration-count: infinite;
   animation-delay: 1s;
   z-index: 99999999999999999999;
-}
+} */
 
 /* keyframes */
-@keyframes _pulse {
+/* @keyframes _pulse {
   0% {
     box-shadow: 0 0 0 0 #a6dffa;
     opacity: 1;
@@ -73,7 +73,7 @@
     box-shadow: 0 0 0 15px #0c234c;
     opacity: 0;
   }
-}
+} */
 
 .whatsApp {
   height: 60px;
