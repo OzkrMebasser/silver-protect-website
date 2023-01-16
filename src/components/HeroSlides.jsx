@@ -26,12 +26,7 @@ const HeroSlides = () => {
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero5.png?alt=media&token=48709d5c-bc6f-4db3-9f78-7029c59f9d72',
       },
-      {
-        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/pruebaHero.png?alt=media&token=5409c0ae-5966-4a77-9a5c-746590d388d7',
-      },
-      {
-        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/webimg.png?alt=media&token=b5f3c936-895e-42bf-a404-87dbda93dcaa'
-      }
+      
 
     ];
   
@@ -54,9 +49,9 @@ const HeroSlides = () => {
     };
   
     return (    
-      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-16 px-4  relative group  heroBGC	'>
+      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down	'>
         <div
-          style={{ backgroundImage: `url(${slides[currentIndex].url})`, zIndex: 999999999999999,}}
+          style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
           className='w-full mx-auto h-full bg-center bg-cover bg-no-repeat  duration-500 '
         ></div>
         {/* Left Arrow */}
