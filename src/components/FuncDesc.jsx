@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const FuncDesc = () => {
   return (
     <div className="relative w-full md:px-20 px-10 bg-[white] py-16 underlineComp">
       <div className=" grid md:grid-cols-2 mx-auto bg-[white] ">
@@ -10,7 +10,7 @@ const About = () => {
             ¿COMO FUNCIONA?
           </h1>
           <span className="items-baseline ">
-            <p className=" text-justify ">
+            <p className=" text-justify text-[1.2rem] tracking-[1.5px] ">
               <img
                 className="h-6 w-22 inline"
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
@@ -29,15 +29,15 @@ const About = () => {
             </p>
           </span>
 
-          {/* <button className="bg-[#0c234c] text-[white] w-[150px] rounded-md font-medium my-6  md:mx-0 py-3">
+          <button className="bg-[#0c234c] text-[1.2rem] text-[#fff] tracking-[1.5px] w-[150px] rounded-md  my-6  md:mx-0 py-3">
             Leer mas...
-          </button> */}
+          </button>
           
           </div>
-          <span className="py-12 md:ml-56">
+          <span className="w-[380px] m-auto duration-300 rounded-lg shadow-xl md:ml-56 bg-[black] ">
           <img
-            className="w-[380px] hover:scale-105 duration-300 rounded-lg shadow-xl "
-            src="https://firebasestorage.googleapis.com/v0/b/ecommerce-proyecto-b850b.appspot.com/o/iones22.PNG?alt=media&token=77e14373-077f-4e9a-a8a9-c7f4a6b70d15"
+            className=" hover:scale-105 duration-300 rounded-lg shadow-xl  "
+            src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/Nucleo.png?alt=media&token=209e4e02-bf7f-4131-b904-3c733eec9899"
             alt="/"
           />
           </span>
@@ -47,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default FuncDesc;

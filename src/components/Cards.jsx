@@ -26,9 +26,9 @@ const Cards = () => {
               nulla pariatur
             </p>
           </div>
-          <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
+          {/* <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
           Leer más...
-          </button>
+          </button> */}
         </div>
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
@@ -48,9 +48,9 @@ const Cards = () => {
               nulla pariatur
             </p>
           </div>
-          <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
+          {/* <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
           Leer más...
-          </button>
+          </button> */}
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
@@ -72,9 +72,9 @@ const Cards = () => {
               nulla pariatur
             </p>
           </div>
-          <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
+          {/* <button className="bg-[#0c234c] w-[150px] text-white rounded-md font-medium my-6 mx-auto px-6 py-3">
           Leer más...
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

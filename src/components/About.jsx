@@ -19,13 +19,13 @@ const About = () => {
             ¿QUIENES SOMOS?
           </h1>
           <span className="items-baseline ">
-            <p className=" text-justify text-[1.2rem] tracking-[.09rem] ">
+            <p className=" text-justify text-[1.2rem] tracking-[1.5px] ">
               <img
                 className="h-6 w-22 inline"
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
                 alt="silver protect"
               />
-              <span className="ml-1"></span>
+              <span className="mr-[5px]"></span>
               es una marca mexicana especialazada en la creación y venta de
               productos a base de plata iónica de la más alta calidad, 100%
               naturales y seguros. En 2014 sus fundadores vieron la oportunidad
@@ -43,14 +43,15 @@ const About = () => {
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
                 alt="silver protect"
               />
+               <span className="ml-1"></span>{" "}
               y su compromiso con la salud y el bienestar de la población.
               Convencidos que llegaremos a todos los hogares mexicanos para
               brindarles la protección que necesitan.
             </p>
           </span>
-          <button className="bg-[#0c234c] text-[white] w-[150px] rounded-md font-medium my-6  md:mx-0 py-3">
+          {/* <button className="bg-[#0c234c] text-[white] w-[150px] rounded-md font-medium my-6  md:mx-0 py-3">
             Leer mas...
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -1,33 +1,28 @@
 import '../index.css';
-export const images = [
+
+export const slides = [
+
     {
-        id:1,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectHero.png?alt=media&token=9e0e840c-1405-4b02-9222-bdaca8e61b39',
-       
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs1.png?alt=media&token=91e9a63c-dea5-4ae2-aee7-714dc8df5525'
     },
     {
-        id:2,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silverProtection.png?alt=media&token=19b5995d-5026-43ed-a5f5-be21c7c62b36',  
-        
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs2.png?alt=media&token=54ee3b9d-0412-4431-bbd1-2c9e91f75f1e'
     },
     {
-        id:3,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/botellasola.png?alt=media&token=a9414306-00cf-431d-ac72-3d84e492760c',          
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs3.png?alt=media&token=70d096ac-bc12-4e53-b182-98d40e909aff'
     },
     {
-        id:4,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/brazo.png?alt=media&token=b5a0c67e-8637-4578-809d-af65baac3edf',          
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs4.png?alt=media&token=f3f3fb27-0094-45d8-88a7-7c3cf1ad1c5e'
     },
     {
-        id:5,
-        img: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silverProtection(3)4.png?alt=media&token=29ddee0c-40f9-4bfc-9e9f-bcfea84d859e',
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs5.png?alt=media&token=9e4bedcf-db81-4e2c-9656-268b3ef84c9a'
+    },
+    {
+      url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fheroimgs6.png?alt=media&token=02bd629a-f5da-41fb-b560-ebd4ebc9fc1a'
     }
-    
-    
-    
 
 
-]
+  ];
 
 export const logo = [
     {
