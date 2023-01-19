@@ -7,7 +7,33 @@ import { slides } from "../assets/images";
 
 
 const HeroSlides = () => {
+<<<<<<< HEAD
 
+=======
+    const slides = [
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero1.png?alt=media&token=b64afe08-4a19-4959-944c-190310399e4c',
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/cicatrizantePoderoso.png?alt=media&token=a1aadd98-688f-480b-8798-37c8319e1b72',
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero2.png?alt=media&token=1bd552b0-9bf9-42a6-bcd9-de6fbc0d862e',
+      },
+  
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero4.png?alt=media&token=099fc626-9b6a-499a-8f2c-1a3ac15022f7',
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero3.png?alt=media&token=b5099fa9-a52c-4b92-bda9-6bd7d8d06965',
+      },
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver-protect-img-hero5.png?alt=media&token=48709d5c-bc6f-4db3-9f78-7029c59f9d72',
+      },
+      
+
+    ];
+>>>>>>> parent of 3f61fa4 (new hero images)
   
     const [currentIndex, setCurrentIndex] = useState(0);
   

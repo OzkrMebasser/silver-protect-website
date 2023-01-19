@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import Hero from '../components/Hero';
-import About from '../components/About';
+// import Hero from '../components/Hero';
+// import About from '../components/About';
 
 
  
