@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-// import Hero from '../components/Hero';
-// import About from '../components/About';
+import HeroSlides from '../components/HeroSlides';
+import About from '../components/About';
 
 
  
@@ -50,7 +50,7 @@ const Navbar = () => {
       <ul className={nav ? 'mx-auto fixed left-0 top-0 w-[100%] h-full  bg-[#0C2348] ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
       
           <li><img className=" text-center mx-auto py-12 h-22 w-32" src='https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c' alt="silver protect" /></li>
-          <li className='text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600'><a href={<Hero/>}>Inicio</a></li>
+          <li className='text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600'><a href={<HeroSlides/>}>Inicio</a></li>
           <li className='text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600'><a href={<About/>}>Quienes somos</a></li>
           <li className='text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600'><a href='https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT' target="_blank" rel="noopener noreferrer"><img className="text-center mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 " src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"/></a></li>
           <li className='text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600'>Contactanos</li>
