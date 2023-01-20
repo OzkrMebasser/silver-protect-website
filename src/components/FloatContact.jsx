@@ -37,7 +37,7 @@ const FloatContact = () => {
       ) : null}
        {openMenu ? (
         <div className='email'>
-         <a href='mailto:silverprotect04@gmail.com'><MdOutlineMailOutline/></a> 
+         <a href='mailto:silverprotect@hotmail.com'><MdOutlineMailOutline/></a> 
           </div>
       ) : null}
     </div>
