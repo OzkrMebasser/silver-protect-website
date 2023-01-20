@@ -34,7 +34,7 @@ const FuncDesc = () => {
           </button>
           
           </div>
-          <span className="w-[380px] m-auto duration-300 rounded-lg shadow-xl md:ml-56 bg-[black] ">
+          <span className=" m-auto duration-300 rounded-lg shadow-xl md:ml-56 bg-[black] ">
           <img
             className=" hover:scale-105 duration-300 rounded-lg shadow-xl  "
             src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/Nucleo.png?alt=media&token=a220386b-6fac-4720-9156-8b4320785b05"
