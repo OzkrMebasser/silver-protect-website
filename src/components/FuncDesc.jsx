@@ -37,7 +37,7 @@ const FuncDesc = () => {
           <span className="w-[380px] m-auto duration-300 rounded-lg shadow-xl md:ml-56 bg-[black] ">
           <img
             className=" hover:scale-105 duration-300 rounded-lg shadow-xl  "
-            src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/Nucleo.png?alt=media&token=209e4e02-bf7f-4131-b904-3c733eec9899"
+            src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/Nucleo.png?alt=media&token=a220386b-6fac-4720-9156-8b4320785b05"
             alt="/"
           />
           </span>
