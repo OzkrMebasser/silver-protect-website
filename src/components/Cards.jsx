@@ -17,7 +17,7 @@ const Cards = () => {
           </h2>
           {/* <p className='text-center text-4xl font-bold'>$149</p> */}
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">
+            <p className="py-2 border-b mx-8 mt-4 textos">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -39,7 +39,7 @@ const Cards = () => {
           <h2 className="text-2xl font-bold text-center py-8">Protección Completa</h2>
          
           <div className="text-center font-medium">
-          <p className="py-2 border-b mx-8 mt-8">
+          <p className="py-2 border-b mx-8 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -63,7 +63,7 @@ const Cards = () => {
           </h2>
       
           <div className="text-center font-medium">
-          <p className="py-2 border-b mx-8 mt-8">
+          <p className="py-2 border-b mx-8 mt-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

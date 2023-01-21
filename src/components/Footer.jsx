@@ -10,10 +10,10 @@ const Footer = () => {
     <Fragment>
       <footer class="relative bg-blueGray-200 pt-8 pb-6 bg-[#0c234c] text-[white]">
   <div class="container mx-auto px-4">
-    <div class="flex flex-wrap text-left lg:text-left">
-      <div class="w-full lg:w-6/12 px-4">
-        <h4 class="text-3xl fonat-semibold text-blueGray-700">Siguenos en</h4>
-     <div className='iconosFooter'>
+    <div class="flex flex-wrap content-center	">
+      <div class="w-full lg:w-6/12 px-4 content-center	">
+        <h4 class="text-3xl center m-auto">Siguenos en</h4>
+     <div className='iconosFooter mt-4'>
 <span><FaFacebookSquare /></span>
 <span><GrInstagram /></span>
 <span><GrYoutube/></span>

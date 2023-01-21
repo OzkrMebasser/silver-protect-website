@@ -9,8 +9,8 @@ const About = () => {
       <div className=" grid md:grid-cols-2 mx-auto bg-[white]  ">
         <img
           className="w-[380px] hover:scale-105 duration-300 rounded-lg shadow-xl "
-          src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/About.jpg?alt=media&token=8e8ed70c-4d9b-40c5-b389-d1f2017b3b15"
-          alt="/"
+          src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/cicatrizanteabout.png?alt=media&token=0be5fcfa-70ae-4aad-9574-8d58978958a6"
+          alt="cicatrizante"
         />
         <div className="flex flex-col justify-center items-center ">
           {/* <p className="text-[#0c2e51] font-bold ">¡Que </p> */}
@@ -18,7 +18,7 @@ const About = () => {
             ¿QUIENES SOMOS?
           </h1>
           <span className="items-baseline ">
-            <p className=" text-justify text-[1.2rem] tracking-[1.5px] ">
+            <p className=" text-justify text-[1rem] tracking-[.5px] textos ">
               <img
                 className="h-6 w-22 inline"
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
