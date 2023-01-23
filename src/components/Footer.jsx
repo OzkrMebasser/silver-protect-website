@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 
 import { FaFacebookSquare} from 'react-icons/fa';
 import {GrInstagram, GrYoutube, GrTwitter } from "react-icons/gr";
-import {BsFillTelephoneForwardFill} from "react-icons/bs";
+import {BsFillTelephoneForwardFill, BsWhatsapp, BsMessenger} from "react-icons/bs";
 
 
 
@@ -25,21 +25,21 @@ const Footer = () => {
 </div>  
       </div>
       <div class="w-full lg:w-6/12 text-[1.6rem]">
-        <div class="flex flex-wrap items-top text-left mb-6">
-          <div class="w-full lg:w-/12 px-4 ml-auto">
-            <span class="uppercase mb-2">Contactanos</span>
-            <ul class="list-unstyled">
+        <div class="flex flex-wrap items-top text-left ">
+          <div class="w-full lg:w-6/12 px-4 ml-auto">
+            <span class="uppercase ">Contactanos</span>
+            <ul class="list-unstyled mt-[1rem]">
               <li>
-                <a className="" href="tel:+529841681509">Telefono <BsFillTelephoneForwardFill className='inline'/></a>
+                <a className="link link-underline link-underline-white" href="tel:+529841681509">Telefono <BsFillTelephoneForwardFill className='inline text-[1.3rem] ml-[5px]'/></a>
               </li>
               <li>
-                <a className="" href="">WhatsApp</a>
+                <a className="link link-underline link-underline-white" href="https://wa.me/5214626932535?text=Hola%20me%20interesa%20saber%20mas%20acerca%20de%20Silver%20Protect"  target="_blank" rel="nofollow noopener noreferrer">WhatsApp <BsWhatsapp className='inline text-[1.3rem] ml-[5px]'/></a>
               </li>
               <li>
-                <a className="" href="">Messenger</a>
+                <a className="link link-underline link-underline-white" href="https://www.facebook.com/876531472464645"  target="_blank" rel="nofollow noopener noreferrer" >Messenger <BsMessenger className='inline text-[1.3rem] ml-[5px]'/></a>
               </li>
               <li>
-                <a className="" href="">Correo</a>
+                <a className="link link-underline link-underline-white" href="">Correo</a>
               </li>
               <li>
                 {/* <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Mercado Libre</a> */}
