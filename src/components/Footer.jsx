@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <Fragment>
       <footer class="relative bg-blueGray-200 pt-8 pb-6 bg-[#0c234c] text-[white]" id='contacto'>
-  <div class="mx-auto px-4 bg-[red] text-center	">
-    <div class="flex flex-wrap bg-[gray]">
-      <div class="w-full lg:w-6/12 px-4 mx-auto bg-[green]	">
+  <div class="mx-auto px-4 ">
+    <div class="flex flex-wrap ">
+      <div class="text-center w-full lg:w-6/12 px-4 mx-auto">
         <h4 class="text-3xl ">Siguenos en</h4>
      <div className='iconosFooter mt-4 mb-8'>
 <span><FaFacebookSquare /></span>
@@ -23,23 +23,26 @@ const Footer = () => {
 
 </div>  
       </div>
-      <div class="w-full lg:w-6/12 px-4 ">
+      <div class="w-full lg:w-6/12 text-[1.6rem]">
         <div class="flex flex-wrap items-top text-left mb-6">
-          <div class="w-full lg:w-4/12 px-4 ml-auto">
-            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Información adiccional</span>
+          <div class="w-full lg:w-/12 px-4 ml-auto">
+            <span class="uppercase mb-2">Contactanos</span>
             <ul class="list-unstyled">
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">¿Dudas?</a>
+                <a className="" href="">Telefono</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Legal</a>
+                <a className="" href="">WhatsApp</a>
               </li>
               <li>
-                <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Componentes</a>
+                <a className="" href="">Messenger</a>
+              </li>
+              <li>
+                <a className="" href="">Correo</a>
               </li>
               <li>
                 {/* <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Mercado Libre</a> */}
-                <a href='https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT' className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" target="_blank" rel="noopener noreferrer"><img className="text-center mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 " src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e" alt='Mercado libre'/></a>
+                <a href='https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT' className="" target="_blank" rel="noopener noreferrer"><img className="h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 " src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e" alt='Mercado libre'/></a>
               </li>
             </ul>
           </div>
