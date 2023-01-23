@@ -3,9 +3,9 @@ import React, {Fragment} from 'react';
 
 const About = () => {
   return (
-    <Fragment>
+    <Fragment >
 
-    <div className="relative w-full md:px-20 px-10 bg-[white] py-16 underlineComp">
+    <div className="relative w-full md:px-20 px-10 bg-[white] py-16 underlineComp " id="quienes-somos">
       <div className=" grid md:grid-cols-2 mx-auto bg-[white]  ">
         <img
           className="w-[380px] hover:scale-105 duration-300 rounded-lg shadow-xl "

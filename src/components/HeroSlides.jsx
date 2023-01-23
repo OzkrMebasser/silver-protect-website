@@ -52,7 +52,7 @@ const HeroSlides = () => {
     };
   
     return (    
-      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down	'>
+      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down' id="home">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
           className='w-full mx-auto h-full bg-center bg-cover bg-no-repeat  duration-500 '

@@ -26,7 +26,7 @@ const FloatContact = () => {
         </button>
      
       {openMenu ? (
-        <div className='whatsApp'>
+        <div className='whatsApp' >
          <a href="https://wa.me/5214626932535?text=Hola%20me%20interesa%20saber%20mas%20acerca%20de%20Silver%20Protect"  target="_blank" rel="nofollow noopener noreferrer"><BsWhatsapp/></a> 
           </div>
       ) : null}

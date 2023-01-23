@@ -1,32 +1,19 @@
-// import React, { useState } from 'react';
-// import '../FloatContact.css'
+import React from 'react';
 
 
-// const Contact = () => {
-//     const mainClassName = "social";
-//     const [classname,setClassname] = useState(mainClassName);
+
+
+const Contact = () => {
     
-//     function Toggle(){
-    
-//     if(classname == "social"){
-//     setClassname("social hide");
-//     }else{
-//     setClassname("social");
-//     }
-//     }
-    
-    
+  return (
+    <>
+    <div className="contact">
+     <h1>Pagina de Contactos</h1>
+    </div>
 
+    <button type="submit"><a href="/">regresar</a></button>
+</>
+  )
+}
 
-//   return (
-//     <>
-//     <div className="wrapper">
-//         <a className={classname} href="#"><i className="fa fa-whatsapp"></i></a>
-//         <a className={classname} href="#"> <i className="fa fa-phone"></i></a>
-//         <a className="close-button" onClick={Toggle} href="#"> <i className="fa fa-close"></i></a>
-//     </div>
-// </>
-//   )
-// }
-
-// export default Contact
+export default Contact
