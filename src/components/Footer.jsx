@@ -1,7 +1,8 @@
 import React, {Fragment} from 'react';
 
 import { FaFacebookSquare} from 'react-icons/fa';
-import {GrInstagram, GrYoutube, GrTwitter } from "react-icons/gr"
+import {GrInstagram, GrYoutube, GrTwitter } from "react-icons/gr";
+import {BsFillTelephoneForwardFill} from "react-icons/bs";
 
 
 
@@ -29,7 +30,7 @@ const Footer = () => {
             <span class="uppercase mb-2">Contactanos</span>
             <ul class="list-unstyled">
               <li>
-                <a className="" href="">Telefono</a>
+                <a className="" href="tel:+529841681509">Telefono <BsFillTelephoneForwardFill className='inline'/></a>
               </li>
               <li>
                 <a className="" href="">WhatsApp</a>
