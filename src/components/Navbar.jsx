@@ -51,7 +51,14 @@ const Navbar = () => {
       </span>
       <ul className="hidden md:flex">
         <li className="link link-underline link-underline-white p-4 font-bold text-[22px]">
-          <Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            onClick={closeMenu}
+          >
             Inicio
           </Link>
         </li>
@@ -116,30 +123,53 @@ const Navbar = () => {
           />
         </li>
         <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
-          <Link to="quienes-somos"
+          <Link
+            to="home"
             spy={true}
             smooth={true}
             offset={-95}
             duration={500}
-            onClick={closeMenu}>Inicio</Link>
+            onClick={handleNav}
+          >
+            Inicio
+          </Link>
         </li>
         <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
-          <Link to="/quienes-somos"> Quienes somos</Link>
+          <Link
+            to="quienes-somos"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={500}
+            onClick={handleNav}
+          >
+            {" "}
+            Quienes somos
+          </Link>
         </li>
-        <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
+        <li className="text-[28px] link link-underline-responsive link-underline-black p-4 border-b ">
           <a
             href="https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              className="text-center mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 "
+              className=" mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 "
               src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"
             />
           </a>
         </li>
         <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
-          <Link to="contacto">Contactanos</Link>
+          <Link
+            to="contacto"
+            spy={true}
+            smooth={true}
+            offset={-95}
+            duration={500}
+            onClick={handleNav}
+          >
+            Contactanos
+          </Link>
         </li>
       </ul>
     </div>

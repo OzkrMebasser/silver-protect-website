@@ -24,7 +24,7 @@ const Footer = () => {
 </div>  
       </div>
       <div class="w-full lg:w-6/12 px-4 ">
-        <div class="flex flex-wrap items-top text-center mb-6">
+        <div class="flex flex-wrap items-top text-left mb-6">
           <div class="w-full lg:w-4/12 px-4 ml-auto">
             <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Información adiccional</span>
             <ul class="list-unstyled">

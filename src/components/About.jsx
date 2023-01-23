@@ -18,7 +18,7 @@ const About = () => {
             ¿QUIENES SOMOS?
           </h1>
           <span className="items-baseline ">
-            <p className=" text-justify text-[1rem] tracking-[.5px] textos ">
+            <p className="  text-[1rem] tracking-[.5px] textos ">
               <img
                 className="h-6 w-22 inline"
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
