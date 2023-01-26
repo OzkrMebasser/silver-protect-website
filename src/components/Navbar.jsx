@@ -17,7 +17,7 @@ const Navbar = () => {
 
   //Fuctions
 
-  const handleNav = () => {
+  const handleNav = (props) => {
     // handles responsive Menu navigation
     setNav(!nav);
   };

@@ -51,6 +51,23 @@ code {
   background-position: 0 100%
 }
 
+.link-underline-footer {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 100% 0;
+  padding: 5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .3s ease-in-out;
+  border-radius: 8px;
+}
+.link-underline-footer:hover {
+  background-size: 100% 100%;
+  background-position: 0 100%;
+  color: #0c234c;
+  border-radius: 8px;
+}
+
 /*responsive menu*/
 .link-underline-responsive {
   border-bottom-width: 0;
