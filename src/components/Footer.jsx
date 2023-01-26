@@ -58,7 +58,7 @@ const Footer = ({ closeMenu }) => {
                 <span>
                   Producto 100%
                   <img
-                    className="h-[8rem] w-[8rem] mt-[.3rem] mx-auto "
+                    className="h-[8rem] w-[8rem] mt-[.3rem] mx-auto mb-[2rem]"
                     src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fhechoenmex.png?alt=media&token=fb3fad01-c714-4cab-a9b6-9e7da86a4402"
                     alt="Hecho en Mexico"
                   />
@@ -67,7 +67,7 @@ const Footer = ({ closeMenu }) => {
             </div>
             <div className="w-full lg:w-6/12 text-[1.6rem]">
               <div className="flex flex-wrap  ">
-                <div className="w-full lg:w-6/12 px-4 text-left ">
+                <div className="w-full lg:w-6/12 px-4  text-center sm:text-center md:text-center ">
                   <span className="mb-[1rem]">Contactanos</span>
                   <ul className="list-unstyled  texto-footer text-[1.2rem]">
                     <li className="mb-[1.6rem]">
@@ -101,7 +101,7 @@ const Footer = ({ closeMenu }) => {
                         <BsMessenger className="inline text-[1.3rem] ml-[5px]" />
                       </a>
                     </li>
-                    <li>
+                    <li className="mb-[2rem]">
                       <a
                         className="link-underline-footer"
                         href="mailto:silverprotect@hotmail.com"
