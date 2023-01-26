@@ -13,55 +13,73 @@ const Footer = ({ closeMenu }) => {
   return (
     <Fragment>
       <footer
-        class="relative bg-blueGray-200 pt-8 pb-6 bg-[#0c234c] text-[white]"
+        className="relative pt-8 pb-6 bg-[#0c234c] text-[white] tracking-[.5px]"
         id="contacto"
       >
         <div class="mx-auto px-4 ">
           <div class="flex flex-wrap ">
-            <div class="text-center w-full lg:w-6/12 px-4 mx-auto">
-              <h4 class="text-[1.8rem] ">Siguenos en</h4>
-              <div className="iconosFooter mt-4 mb-8">
+            <div class="text-center w-full lg:w-6/12 px-4 mx-auto text-[1.6rem] ">
+              <h4 class="text-[1.6rem] mb-[1.6rem] ">Siguenos en</h4>
+              <div className="iconosFooter ">
                 <span>
+                <a
+                    href="https://www.facebook.com/mxsilverprotect"
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                  >
                   <FaFacebookSquare />
+                  </a>
+                </span>
+                
+                <span>
+                  <a
+                    href="https://www.instagram.com/silverprotectmx"
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                  >
+                    <GrInstagram />{" "}
+                  </a>
                 </span>
                 <span>
-                  <GrInstagram />
+                <a
+                    href="https://twitter.com/SilverProtect_?t=HvtZAvz6OD_S_urUO07WVA&s=09"
+                    target="_blank"
+                    rel="nofollow noopener noreferrer"
+                  >
+                    <GrTwitter />
+                  
+                  </a>
                 </span>
-                <span>
-                  <GrYoutube />
-                </span>
-                <span>
-                  <GrTwitter />
-                </span>
-                    
-             
+                {/* <span>
+                <GrYoutube />
+                </span> */}
               </div>
-              <div className="mt-[1.8rem] mb-[1.8rem] text-[1.5rem] ">
-                    <span  >
-                        Creado y distribuido por
-                        <img
-                        className="h-[6rem] w-[8rem] mt-[1rem]  mx-auto"
-                          src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fgpohidrodise%C3%B1o.png?alt=media&token=e5375228-e722-4cd3-bdb3-528435e57852"
-                          alt="Grupo Hidrodiseño"
-                        />
-                      </span>
-                    </div>
+              <div className="mt-[1.8rem]  text-[1.5rem] ">
+                <span>
+                  Producto 100%
+                  <img
+                    className="h-[8rem] w-[8rem] mt-[.3rem] mx-auto "
+                    src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fhechoenmex.png?alt=media&token=fb3fad01-c714-4cab-a9b6-9e7da86a4402"
+                    alt="Hecho en Mexico"
+                  />
+                </span>
+              </div>
             </div>
-            <div class="w-full lg:w-6/12 text-[1.6rem]">
-              <div class="flex flex-wrap items-top text-left ">
-                <div class="w-full lg:w-6/12 px-4 text-center mt-[1.5rem]">
-                  <span class="uppercase ">Contactanos</span>
-                  <ul class="list-unstyled mt-[1rem] " >
-                    <li>
+            <div className="w-full lg:w-6/12 text-[1.6rem]">
+              <div className="flex flex-wrap  ">
+                <div className="w-full lg:w-6/12 px-4 text-left ">
+                  <span className="mb-[1rem]">Contactanos</span>
+                  <ul className="list-unstyled  texto-footer text-[1.2rem]">
+                    <li className="mb-[1.6rem]">
                       <a
                         className=" link-underline-footer "
-                        href="tel:+529841681509"
+                        href="tel:+524626932535"
                       >
                         Telefono{" "}
                         <BsFillTelephoneForwardFill className="inline text-[1.3rem] ml-[5px]" />
                       </a>
                     </li>
-                    <li>
+                    <li className="mb-[1.6rem]">
                       <a
                         className="link-underline-footer"
                         href="https://wa.me/5214626932535?text=Hola%20me%20interesa%20saber%20mas%20acerca%20de%20Silver%20Protect"
@@ -72,10 +90,10 @@ const Footer = ({ closeMenu }) => {
                         <BsWhatsapp className="inline text-[1.3rem] ml-[5px]" />
                       </a>
                     </li>
-                    <li>
+                    <li className="mb-[1.6rem]">
                       <a
                         className="link-underline-footer"
-                        href="https://www.facebook.com/876531472464645"
+                        href="https://www.facebook.com/messages/t/876531472464645"
                         target="_blank"
                         rel="nofollow noopener noreferrer"
                       >
@@ -92,23 +110,21 @@ const Footer = ({ closeMenu }) => {
                         <MdOutlineMailOutline className="inline text-[1.3rem] ml-[5px]" />
                       </a>
                     </li>
-                    
                   </ul>
                 </div>
                 <div className="w-full lg:w-5/12  px-4 ">
                   <ul className="list-unstyled">
-                    <li className="text-[1.2rem]  text-center">
-                      Producto 100%               
-                        <img
-                          className="h-[8rem] w-[8rem] mt-[1rem] mx-auto "
-                          src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fhechoenmex.png?alt=media&token=fb3fad01-c714-4cab-a9b6-9e7da86a4402"
-                          alt="Hecho en Mexico"
-                        />
-                     
-                     
+                    <li className="text-[1.2rem]  text-center"></li>
+                    <li className="text-[1.5rem]  text-center">
+                      Creado y distribuido por
+                      <img
+                        className="h-[6rem] w-[8rem]  mx-auto"
+                        src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2Fgpohidrodise%C3%B1o.png?alt=media&token=e5375228-e722-4cd3-bdb3-528435e57852"
+                        alt="Grupo Hidrodiseño"
+                      />
                     </li>
-                    <li className="mt-[1rem] text-center text-[1.2rem]  text-center">
-                      Comprar en 
+                    <li className="mt-[1.2rem] text-center text-[1.5rem] text-center">
+                      Comprar en
                       <a
                         href="https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT"
                         className=""
@@ -116,7 +132,7 @@ const Footer = ({ closeMenu }) => {
                         rel="noopener noreferrer"
                       >
                         <img
-                          className="h-8 w-22 bg-[#fff] text-[white] rounded-md p-1  mx-auto "
+                          className="h-24 w-28 bg-[#fff] text-[white] mt-[.5rem] rounded-md p-1  mx-auto "
                           src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"
                           alt="Mercado libre"
                         />
