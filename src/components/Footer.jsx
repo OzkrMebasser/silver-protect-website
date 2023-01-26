@@ -170,6 +170,8 @@ const Footer = ({ closeMenu }) => {
                   SILVER PROTECTION
                 </Link>
               </div>
+              {/* <span >Hecho c por OzkrMebasser</span> */}
+
             </div>
           </div>
         </div>

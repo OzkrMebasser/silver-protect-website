@@ -164,7 +164,7 @@ const Navbar = () => {
             to="contacto"
             spy={true}
             smooth={true}
-            offset={-95}
+            offset={235}
             duration={500}
             onClick={handleNav}
           >
