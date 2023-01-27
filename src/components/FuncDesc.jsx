@@ -1,4 +1,5 @@
 import React from "react";
+import {BsCloudArrowDownFill} from "react-icons/bs";  
 
 const FuncDesc = () => {
   return (
@@ -30,7 +31,7 @@ const FuncDesc = () => {
           </span>
 
           <button className="bg-[#0c234c] text-[1.2rem] text-[#fff] tracking-[1.5px] w-[150px] rounded-md  my-6  md:mx-0 py-3">
-            Leer mas...
+            <a href="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/SilverProtectInfo.pdf?alt=media&token=a47ae6d1-4b9a-44ab-b6cb-357cfd70c3c5" target="_blank" rel="noopener noreferrer">Leer mas... {" "}< BsCloudArrowDownFill className="inline" /></a>
           </button>
           
           </div>

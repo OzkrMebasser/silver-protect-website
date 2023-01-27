@@ -156,6 +156,7 @@ const Navbar = () => {
             <img
               className=" mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 "
               src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"
+              alt="mercado libre"
             />
           </a>
         </li>
