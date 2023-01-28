@@ -14,11 +14,11 @@ const About = () => {
         />
         <div className="flex flex-col justify-center items-center ">
           {/* <p className="text-[#0c2e51] font-bold ">¡Que </p> */}
-          <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2 ">
             ¿QUIENES SOMOS?
           </h1>
           <span className="items-baseline ">
-            <p className="  text-[1rem] tracking-[.5px] textos ">
+            <p className="  text-[1rem] tracking-[.5px] textos text-justify">
               <img
                 className="h-6 w-22 inline"
                 src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
