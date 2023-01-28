@@ -136,6 +136,10 @@ code {
   
 }
 
+.particlesBack {
+  z-index: -9999999;
+}
+
 .iconosFooter{
  margin-left: 0;
  font-size: 2rem;

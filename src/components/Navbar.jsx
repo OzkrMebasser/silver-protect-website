@@ -117,7 +117,7 @@ const Navbar = () => {
       >
         <li>
           <img
-            className=" text-center mx-auto py-12 h-22 w-32"
+            className=" text-center mx-auto py-12 h-22 w-30"
             src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/silver2.png?alt=media&token=2c7b110e-2612-42a8-8308-91a16ca45f4c"
             alt="silver protect"
           />
@@ -156,7 +156,7 @@ const Navbar = () => {
             <img
               className=" mx-auto h-8 w-22 bg-[#fff] text-[white] rounded-md p-1 "
               src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"
-              alt="mercado libre"
+              alt="mercado"
             />
           </a>
         </li>
