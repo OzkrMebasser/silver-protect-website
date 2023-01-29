@@ -266,3 +266,28 @@ code {
     50%{opacity: .7;}
     100%{opacity: 1;}
     }
+
+    .blink {
+  
+  animation: blink .8s linear infinite;
+    
+    
+  }
+  @keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .7;}
+    100%{opacity: 1;}
+    }
+
+    
+    
+.blinking-moon {
+  animation: blinker .5s linear infinite; 
+ 
+}
+@keyframes blinker{
+   80%{opacity: .8;}
+   /* 50%{opacity: .7;} */
+  100%{opacity: 1;}
+  
+}

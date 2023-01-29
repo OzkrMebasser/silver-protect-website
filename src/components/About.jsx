@@ -25,15 +25,16 @@ const About = () => {
                 alt="silver protect"
               />
               <span className="mr-[5px]"></span>
-              es una marca mexicana especialazada en la creación y venta de
+              es una marca mexicana especializada en la creación y venta de
               productos a base de plata iónica de la más alta calidad, 100%
               naturales y seguros. En 2014 sus fundadores vieron la oportunidad
               de crear un producto innovador con iones de plata, al darse cuenta
               que el mercado en México era prácticamente virgen, todo lo
               contrario a lo que estaba ocurriendo en Europa, donde las
               soluciones con plata ya eran comunes y utilizadas para la
-              desinfección de supercies, alimentos y pricipalmente como
+              desinfección de superficies, alimentos y principalmente como
               antiséptico para el tratamiento de heridas y quemaduras.
+
               <br />
               Es asi como nace
               <span className="ml-1"></span>{" "}

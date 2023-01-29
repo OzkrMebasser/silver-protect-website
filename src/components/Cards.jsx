@@ -35,7 +35,7 @@ const Cards = () => {
             src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/seguro.png?alt=media&token=63006524-c69e-4e31-9fea-ef4e134d1558"
             alt="/"
           />
-          <h2 className="text-3xl font-bold text-center py-8">
+          <h2 className="text-3xl font-bold text-center py-8 uppercase">
             Protección Completa
           </h2>
 
@@ -64,7 +64,7 @@ const Cards = () => {
             src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/100natural.svg?alt=media&token=8d1fb4f4-6d04-4686-9f5b-b9c6506e2830"
             alt="/"
           />
-          <h2 className="text-3xl font-bold text-center py-8">
+          <h2 className="text-3xl font-bold text-center py-8 uppercase">
             Producto 100% Natural
           </h2>
 
