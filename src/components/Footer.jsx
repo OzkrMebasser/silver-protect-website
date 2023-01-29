@@ -2,7 +2,8 @@ import React, { Fragment } from "react";
 import { Link } from "react-scroll";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import { GrInstagram, GrYoutube, GrTwitter } from "react-icons/gr";
+import { GrInstagram, GrTwitter } from "react-icons/gr";
+import {GiClick} from "react-icons/gi"
 import {
   BsFillTelephoneForwardFill,
   BsWhatsapp,
@@ -125,6 +126,7 @@ const Footer = ({ closeMenu }) => {
                     </li>
                     <li className="mt-[1.2rem] text-center text-[1.5rem] text-center">
                       Comprar en
+                      
                       <a
                         href="https://www.mercadolibre.com.mx/perfil/SILVER+PROTECT"
                         className=""
@@ -132,12 +134,17 @@ const Footer = ({ closeMenu }) => {
                         rel="noopener noreferrer"
                       >
                         <img
-                          className="h-24 w-28 bg-[#fff] text-[white] mt-[.5rem] rounded-md p-1  mx-auto "
+                          className="h-16 w-28 bg-[#fff] text-[white] mt-[.5rem] rounded-md p-1  mx-auto "
                           src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/mercado-libre-logo.svg?alt=media&token=2336992a-6742-4f1f-85b1-a8a07611fa1e"
                           alt="Mercado libre"
                         />
+                        <div className="h-10 w-20 mx-auto " ><GiClick className=" mt-[8px] text-[2.2rem] ml-10 blink"/></div>
+                       
                       </a>
+                     
                     </li>
+                   
+                    
                     {/* <li>
                       <a
                         className=""
