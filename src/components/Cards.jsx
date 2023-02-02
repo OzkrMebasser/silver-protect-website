@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="w-full py-[10rem] px-8 bg-white relative">
+    <div className="w-full py-[10rem] px-8 bg-white relative underlineComp">
       <div className="max-w-[1100px] mx-auto grid md:grid-cols-2 gap-12">
         {/* <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img

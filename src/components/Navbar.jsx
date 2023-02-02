@@ -92,6 +92,18 @@ const Navbar = () => {
         </li>
         <li className="link link-underline link-underline-white p-4 font-bold text-[22px]">
           <Link
+            to="testimoniales"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+            onClick={closeMenu}
+          >
+            Testimoniales
+          </Link>
+        </li>
+        <li className="link link-underline link-underline-white p-4 font-bold text-[22px]">
+          <Link
             to="contacto"
             spy={true}
             smooth={true}
@@ -159,6 +171,18 @@ const Navbar = () => {
               alt="mercado"
             />
           </a>
+        </li>
+        <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
+          <Link
+            to="testimoniales"
+            spy={true}
+            smooth={true}
+            offset={-30}
+            duration={500}
+            onClick={handleNav}
+          >
+            Testimoniales
+          </Link>
         </li>
         <li className="text-[28px] link link-underline-responsive link-underline-black text-center p-4 border-b border-gray-600">
           <Link
