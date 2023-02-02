@@ -7,7 +7,7 @@ const FuncDesc = () => {
       <div className=" grid md:grid-cols-2 mx-auto bg-[white] ">
         <div className="flex flex-col justify-center items-center  bg-[white] ">
           {/* <p className="text-[#0c2e51] font-bold ">¡Que </p> */}
-          <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+          <h1 className='text-[#3f3f3f] text-3xl font-bold text-center py-4 uppercase'>
             ¿COMO FUNCIONA?
           </h1>
           <span className="items-baseline ">

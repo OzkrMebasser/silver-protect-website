@@ -6,8 +6,8 @@ const Testimonials = () => {
     <Fragment className="relative bg-white">
         <section className=" relative text-gray-600 body-font bg-white underlineComp" id='testimoniales'>
   <div className="container px-5 py-24 mx-auto bg-white">
-    <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2 uppercase text-center">Testimoniales</h1>
-    <h3 className=" text-[#3f3f3f] md:text-2xl sm:text-2xl text-2xl font-bold py-2 uppercase text-center">¿Que dicen nuestros clientes?</h3>
+  <h1 className='text-[#3f3f3f] text-3xl font-bold text-center py-4 uppercase'>Testimoniales</h1>
+    <h3 className=" text-[#3f3f3f] md:text-2xl sm:text-2xl text-2xl font-bold  text-center">¿Que dicen nuestros clientes?</h3>
 
     <div className="flex flex-wrap -m-4">
       <div className="p-4 md:w-1/2 w-full">
