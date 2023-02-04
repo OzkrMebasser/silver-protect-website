@@ -51,33 +51,38 @@ const HeroSlides = () => {
       setCurrentIndex(slideIndex);
     };
   
-    return (    
-      <div className='max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down' id="home">
+    return (   
+       
+      <div className=' max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down' id="home" >
+        
         <div
-          style={{ backgroundImage: `url(${slides[currentIndex].url})`}}
-          className='w-full mx-auto h-full bg-center bg-cover bg-no-repeat  duration-500 '
+          style={{ backgroundImage: `url(${slides[currentIndex].url})`,  }}
+          className=' w-full mx-auto h-full bg-center bg-cover bg-no-repeat duration-500 relative z-40'
         ></div>
         {/* Left Arrow */}
-        <div className=' absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        <div className='z-40 absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
           <BsChevronCompactLeft onClick={prevSlide} size={30} />
         </div>
         {/* Right Arrow */}
-        <div className=' absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
+        <div className=' z-40 absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
-        <div className='flex top-4 justify-center py-2 z-50'>
+        
+        <div className='flex top-4 justify-center py-2 '>
           {slides.map((slide, slideIndex) => (
             <div
               key={slideIndex}
               onClick={() => goToSlide(slideIndex)}
-              className='text-[40px] cursor-pointer text-[silver]'
+              className='text-[40px] cursor-pointer text-[silver] '
             >
               <RxDotFilled />
             </div>
+            
           ))}
+          
         </div>
-        <ParticlesHero className="particlesBack"/>
         
+        <ParticlesHero className="particlesBack"/>
       </div>
       
     );
