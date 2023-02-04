@@ -124,7 +124,7 @@ const Footer = ({ closeMenu }) => {
                         alt="Grupo Hidrodiseño"
                       />
                     </li>
-                    <li className="mt-[1.2rem] text-center text-[1.5rem] text-center">
+                    <li className="mt-[1.2rem] text-center text-[1.5rem]">
                       Comprar en
                       
                       <a

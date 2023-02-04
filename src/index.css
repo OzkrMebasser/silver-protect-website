@@ -111,7 +111,7 @@ code {
 
 
 .underlineComp {
-  border-bottom: 20px solid transparent;
+  border-bottom: 50px solid transparent;
   border-image: linear-gradient(-72deg,
   #dedeff,
   #ffffff 16%,
