@@ -45,7 +45,7 @@ const Testimonials = () => {
                       Sofia Moreno
                     </span>
                     <span className="text-gray-500 text-sm">
-                      Maestra de Kinder
+                    Gerente de desarrollo de negocio
                     </span>
                   </span>
                 </span>
