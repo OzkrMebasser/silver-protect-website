@@ -50,7 +50,8 @@ const HeroSlides = () => {
     const goToSlide = (slideIndex) => {
       setCurrentIndex(slideIndex);
     };
-  
+    
+
     return (   
        
       <div className=' max-w-[1400px] h-[100vh] w-full m-auto py-12 px-4  relative heroBGC sm:object-scale-down' id="home" >
