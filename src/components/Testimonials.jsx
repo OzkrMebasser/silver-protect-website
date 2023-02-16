@@ -37,7 +37,7 @@ const Testimonials = () => {
                 <span className="inline-flex items-center">
                   <img
                     alt="testimonial"
-                    src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2FSof%C3%ADa%20Moreno.jpg?alt=media&token=89036960-baaf-4289-950d-ee0a2865e37e"
+                    src="https://firebasestorage.googleapis.com/v0/b/silver-protect.appspot.com/o/imgsSilver%2FSofia%20Moreno.jpeg?alt=media&token=cdba730c-e052-408d-95d8-722faa239fd0"
                     className="w-16 h-16 rounded-full flex-shrink-0 object-cover object-center"
                   />
                   <span className="flex-grow flex flex-col pl-4">
@@ -137,7 +137,7 @@ const Testimonials = () => {
                     <span className="title-font font-medium text-gray-900">
                     Rosa María Castellanos
                     </span>
-                    <span className="text-gray-500 text-sm">Abogada</span>
+                    <span className="text-gray-500 text-sm">Ama de casa</span>
                   </span>
                 </span>
               </div>

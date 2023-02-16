@@ -16,7 +16,7 @@ const About = () => {
           {/* <p className="text-[#0c2e51] font-bold ">¡Que </p> */}
           {/* <h1 className=" text-[#3f3f3f] md:text-4xl sm:text-3xl text-2xl font-bold py-2 "> */}
             <h1 className='text-[#3f3f3f] text-3xl font-bold text-center py-4 uppercase'>
-            ¿QUIENES SOMOSs?
+            ¿QUIENES SOMOS?
           </h1>
           <span className="items-baseline ">
             <p className="  text-[1rem] tracking-[.5px] textos text-justify">
