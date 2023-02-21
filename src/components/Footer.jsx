@@ -177,7 +177,7 @@ const Footer = ({ closeMenu }) => {
                   SILVER PROTECT
                 </Link>
               </div>
-              {/* <span >Hecho c por OzkrMebasser</span> */}
+              <span >Hecho por OzkrMebasser</span>
 
             </div>
           </div>
