@@ -174,7 +174,7 @@ const Footer = ({ closeMenu }) => {
                   target="_blank"
                 >
                   {" "}
-                  SILVER PROTECTION
+                  SILVER PROTECT
                 </Link>
               </div>
               {/* <span >Hecho c por OzkrMebasser</span> */}
