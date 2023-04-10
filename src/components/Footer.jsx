@@ -34,7 +34,7 @@ const Footer = ({ closeMenu }) => {
                 
                 <span>
                   <a
-                    href="https://www.instagram.com/silverprotectmx"
+                    href="https://www.instagram.com/silverprotect_mx/?igshid=ZDdkNTZiNTM%3D"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
                   >
