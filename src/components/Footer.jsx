@@ -177,7 +177,7 @@ const Footer = ({ closeMenu }) => {
                   SILVER PROTECT
                 </Link>
               </div>
-              <span >Hecho por OzkrMebasser</span>
+              <span >Sitio creado por <a href="https://github.com/OzkrMebasser" rel="noopener noreferrer" target="_blank" >OzkrMebasser</a></span>
 
             </div>
           </div>
